@@ -21,7 +21,8 @@ const playTheGame = (human, machine) => {
         result.innerHTML = "Deu empate!"
     } else if( (human === 'paper' && machine === 'rock') || 
         (human === 'rock' && machine === 'scissors') ||
-        (human === 'scissors' && machine === 'paper')){
+        (human === 'scissors' && machine === 'paper')
+    ){
         result.innerHTML = "Você ganhou!"
         userScore++
         yourScore.innerHTML = userScore
