@@ -61,10 +61,10 @@ button:hover {
 
 p {
     font-weight: bold;
-    margin-bottom: 10px;
 }
 
 .your-score span {
+    margin-bottom: 10px;
     font-size: 20px;
     color: rgb(77, 128, 216);
 }
@@ -72,4 +72,22 @@ p {
 .machine-score span {
     font-size: 20px;
     color: rgb(244, 71, 15);
+}
+
+@media screen and (max-width: 430px) {
+    .buttons {
+        margin: 10px 10px;
+        gap: 30px;
+    }
+
+    button {
+        width: 90px;
+        height: 90px;
+        font-size: 35px;
+    }
+
+    button:hover {
+        font-size: 50px;
+    }
+    
 }
